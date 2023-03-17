@@ -1,1 +1,2 @@
-# NLP_TextGeneration
+# Text Generation - Science Fiction
+Models capable of generating text are prevalent and present in many aspects of modern life. The objective of this project is to train a word-level language model using the text from a large collection of Science Fiction stories. For preprocessing, the raw text is split into list of sentences using regular expressions by avoiding abbreviations, acronyms, ellipses and decimal numbers. Also, those sentences are tokenised to convert into vector by Word2Vec. Finally, word vectors are trained by LSTM model so that it can generate text.
